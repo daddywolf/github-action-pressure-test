@@ -1,6 +1,7 @@
 name: Pressure Test
 
 on:
+  workflow_dispatch: # 手动触发
   push:
     branches:
       - main  # 修改为你的默认分支
