@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # 修改为你的默认分支
+  schedule:
+    - cron: '*/1 * * * *'  # 每分钟执行一次
 
 jobs:
   pressure-test:
