@@ -18,9 +18,6 @@ jobs:
       with:
         go-version: 1.21.0  # 修改为你想要使用的 Go 版本
 
-    - name: Go to pressure test directory
-      run: cd path/to/your/pressure/test/script  # 将路径修改为你的压力测试脚本所在的目录
-
     - name: Build and install hey
       run: go install github.com/rakyll/hey@latest
 
