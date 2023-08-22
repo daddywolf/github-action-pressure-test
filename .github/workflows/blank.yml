@@ -2,11 +2,6 @@ name: Pressure Test
 
 on:
   workflow_dispatch: # 手动触发
-  push:
-    branches:
-      - main  # 修改为你的默认分支
-  schedule:
-    - cron: '*/5 * * * *'  # 每分钟执行一次
 
 jobs:
   pressure-test:
